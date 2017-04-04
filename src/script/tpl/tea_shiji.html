@@ -1,0 +1,47 @@
+<main class="tea_box">
+    <header class='tea_box_header'>
+        <a href="javascript:;" class="iconfont" ui-sref="contents">&#xe8a6;</a>
+        <a href="javascript:;" class="iconfont" ng-click="share()">&#xe64c;</a>
+        <a href="javascript:;" class="iconfont" ui-sref="search">&#xe672;</a>
+        <a href="javascript:;" class="iconfont" ui-sref="login">&#xe648;</a>
+    </header>
+    <div class='tea_shiji'>
+        <p class="banner"><img ng-src="{{list.tea_box_banner}}"></p>
+        <nav class="shiji_nav">
+            <a ui-sref="dashi">
+                <i class="icon">&#xe67f;</i>
+                <span>大师</span>
+            </a>
+            <a ui-sref="dashi">
+                <i class="icon">&#xe60f;</i>
+                <span>名家</span>
+            </a>
+             <a ui-sref="mingxing">
+                <i class="icon">&#xe6b7;</i>
+                <span>茗星</span>
+            </a>
+            <a ui-sref="heji">
+                <i class="icon">&#xe611;</i>
+                <span>合集</span>
+            </a>
+            <a ui-sref="find">
+                <i class="icon">&#xe6a6;</i>
+                <span>发现</span>
+            </a>
+        </nav>
+
+        <my-slider></my-slider>
+
+        <div class="shi_list">
+            <div ng-repeat="item in list.tea_box_img" class="shi_list_box">
+                <div ng-repeat="list in item.img" ui-sref="listImg1">
+                    <img ng-src="src/images/{{ list }}">
+                </div>
+                <img ng-if="item.flag" ng-src="src/images/{{ item.photo }}" class="photo" ui-sref="{{item.url}}">
+                <h2>{{ item.title }}</h2>
+                <h3 ng-if="item.flag"><span>{{ item.num }}人买过</span>{{ item.type }} · {{ item.talk }}条评论 · {{ item.name }}</h3>
+            </div>
+
+        </div>
+    </div>
+</main>

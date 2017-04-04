@@ -1,0 +1,162 @@
+.body,html,.ng-scope{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:62.5%;
+}
+.s_box{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+.s_header{
+	width:100%;
+	height:.44rem;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+		h1{
+			text-align: center;
+			line-height: .44rem;
+			font-size: .2rem;
+			font-weight: 100;
+			color:#893e20;
+				span{
+					position: absolute;
+					left:15%;
+				}
+		}
+}
+.s_section{
+	width:100%;
+	-webkit-flex-grow:1;
+}
+.s_main{
+	width:100%;
+	height:auto;
+	overflow-y: scroll;
+}
+.s_tit{
+	width:100%;
+	height:.5rem;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+	color:#999;
+	font-size:.15rem;
+	line-height:.5rem;
+		p{
+			padding-left:.16rem;
+				span{
+					color:#893e20
+				}
+		}
+}
+.s_content{
+	width:100%;
+	height:auto;
+		.s_list{
+			width:100%;
+			height:auto;
+				li{
+					width:100%;
+					height:.5rem;
+					border-bottom: 1px solid #ccc;
+					display: -webkit-flex;
+					position: relative;
+					line-height: .5rem;
+						span{
+							width:1rem;
+							height:100%;
+							color:#444;
+							font-size: .15rem;
+							text-align: center;
+							position:relative;
+						}
+						input{
+							-webkit-flex-grow:1;
+							border:none;
+							outline:none;
+						}
+						b{
+							width:.8rem;
+							height:.2rem;
+							border:1px solid #893e20;
+							text-align: center;
+							line-height: .2rem;
+							position: absolute;
+							right: .15rem;
+							top:.15rem;
+							border-radius: 12px;
+							color:#893e20;
+						}
+				}
+		}
+}
+.s_read{
+	width:100%;
+	height:.5rem;
+	line-height:.5rem;
+		p{
+			padding-left: .16rem;
+			font-size: .15rem;
+			position: relative;
+			b{
+				color:#893e20;
+				font-weight: 100;
+			}
+			label{
+				width:.2rem;
+				height:.2rem;
+				display: inline-block;
+				background: url('../../images/Screenshot_2017-02-17-15-00-17-484_03.jpg') no-repeat;
+				background-size: 100% auto;
+				position: absolute;
+				left:.12rem;
+				top:.14rem;
+			}
+			input[type='checkbox']:checked+label{
+				background: url('../../images/Screenshot_2017-02-17-15-03-40-746_03.jpg') no-repeat;
+				background-size: 100% auto;
+			}
+		}
+}
+.s_btn{
+	width:95%;
+	height:.5rem;
+	line-height: .5rem;
+	text-align: center;
+	margin-left: 3%;
+	font-size: .2rem;
+	background: #893e20;
+	color:#fff;
+	margin-top: .2rem;
+	border:none;
+	outline:none;
+	
+}
+#s_special{
+	width:100%;
+	height:1.2rem;
+	line-height: 1.2rem;
+		textarea{
+			border:none;
+			font-size:.15rem;
+			margin-top: .2rem;
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

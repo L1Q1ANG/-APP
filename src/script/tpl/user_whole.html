@@ -1,0 +1,19 @@
+<div class="page-wrapper shiji">
+	<header class="user-head">
+            <a href="javascript:;" class="iconfont"  ui-sref="user">&#xe61c;</a>
+            <h3>我的订单</h3>
+    </header>
+    <div class="user-whole-main">
+    	<nav class="order-status-con">
+		<ul>
+		<li><a ui-sref="user.whole.a">全部</a></li>
+		<li><a ui-sref="user.whole.b">待付款</a></li>
+		<li><a ui-sref="user.whole.c">待发货</a></li>
+		<li><a ui-sref="user.whole.d">待收货</a></li>
+		<li><a ui-sref="user.whole.e">待评价</a></li>
+		</ul>
+		</nav>
+		<ui-view></ui-view>
+    </div>
+	
+</div>

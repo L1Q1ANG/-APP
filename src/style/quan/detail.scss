@@ -1,0 +1,135 @@
+.ng-scope{
+	width:100%;
+
+}
+.f_box{
+	width:100%;
+	height:100%;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color:transparent;
+}
+.d_box{
+	width:100%;
+	-webkit-flex-grow:1;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+.d_header{
+	width:100%;
+	height:.44rem;
+}
+.q_content{
+	width:100%;
+	height:auto;
+	padding-bottom: .55rem;
+	padding-top: .55rem;
+	
+}
+.q_ban{
+	width:100%;
+}
+.q_ban img{
+			width:100%;
+			height:auto;
+		}
+.q_nav{
+	width:100%;
+	height:0.82rem;
+	display:-webkit-flex;
+	border-bottom: 2px solid #ccc;
+		a{
+			display: block;
+			-webkit-flex-grow:1;
+			height:100%;
+			color:#4c4b4b;
+			text-align: center;
+			font-size: .18rem;
+				b{
+					display: block;
+					width:.3rem;
+					height:.3rem;
+					border:1px solid #ccc;
+					border-radius: 50%;
+					text-align: center;
+					line-height: .3rem;
+					margin:.1rem 0 .1rem 36%;
+				}
+		}
+
+}
+.q_chose{
+	width:100%;
+	height:auto;
+	display:-webkit-flex;
+	margin-top: .2rem;
+		dl{
+			-webkit-flex-grow:1;
+			dt{
+				width:1.1rem;
+				height:1.1rem;
+				margin-left: .1rem;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+			dd{
+				color:#444;
+				text-align: center;
+				h2{
+					font-size: .18rem;
+					font-weight: 100;
+				}
+				p{
+					font-size:.15rem;
+				}
+			}
+		}
+}
+.q_main{
+	width:100%;
+	height:auto;
+		dl{
+			width:100%;
+			height:1.5rem;
+			display: -webkit-flex;
+			margin-top: .2rem;
+			border-bottom: 1px solid #ccc;
+				dt{
+					width:2.2rem;
+					height:1rem;
+					margin:.11rem 0 0 .1rem;
+					img{
+						width:100%;	
+						height:100%;
+					}
+				}
+				dd{
+					margin-left: .15rem;
+					margin-top: .1rem;
+					-webkit-flex-grow:1;
+					line-height: .2rem;
+					h3{
+						color:#444;
+						font-size: .18rem;
+					}
+					h4{
+						color:#444;
+						font-size: .15rem;
+						margin-right: .2rem;
+						margin-top: .1rem;
+					}
+					p{
+						margin-top: .2rem;
+						span{
+							margin-right: .2rem;
+						}
+					}
+				}
+		}
+}

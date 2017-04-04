@@ -1,0 +1,203 @@
+.dan-score {
+    width: 100%;
+    height: auto;
+}
+
+.dan-score .score-header {
+    width: 100%;
+    height: 30px;
+}
+
+.dan-score .score-header h3 {
+    margin-left: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 3px solid #c0501f;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.dan-score .score-main {
+    width: 100%;
+}
+
+.dan-score .score-main .score-circular {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.dan-score .score-main .score-circular ul {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.dan-score .score-main .score-circular ul li {
+    width: 20%;
+    float: left;
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+.dan-score .score-main .score-circular .canvas {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.dan-score .score-main .score-circular #myCanvas {
+    width: 100%;
+}
+
+.dan-score .score-main .score-content {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.dan-score .score-main .score-content ul {
+    width: 100%;
+}
+
+.dan-score .score-main .score-content ul li {
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.dan-score .score-main .score-content ul li p.setter {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    line-height: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.dan-score .score-main .score-content ul li p.setter span {
+    font-size: 14px;
+}
+
+.dan-score .score-main .score-content ul li p.setter em {
+    display: inline-block;
+    background: url(../../images/q_icon.png) no-repeat;
+    background-position: 0 5px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.dan-score .score-main .score-content ul li p.setter i {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+}
+
+.dan-score .score-main .score-content ul li .answer {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+    height: auto;
+}
+
+.dan-score .score-main .score-content ul li .answer em {
+    background: url(../../images/a_icon.png) no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.dan-score .score-main .score-content ul li .answer span {
+    line-height: 20px;
+    font-size: 12px;
+    display: block;
+    width: 90%;
+    margin-left: 25px;
+}
+
+.dan-score .score-main .score-content ul li .answer table {
+    width: 90%;
+    margin-left: 25px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.dan-score .score-main .score-content ul li .answer table tr {
+    height: 40px;
+}
+
+.dan-score .score-main .score-content ul li .answer table thead tr th {
+    border: 1px solid #ddd;
+}
+
+.dan-score .score-main .score-content ul li .answer table thead tr .th1,
+.th2 {
+    width: 60px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.dan-score .score-main .score-content ul li .answer table thead tr .th3 {
+    width: 126px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.dan-score .score-main .score-content ul li .answer table tbody tr td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.dan-score .score-main .score-content ul li .answer table tbody tr td.list_td {
+    text-align: left;
+    padding-left: 3px;
+}
+
+.dan-score .score-main .score-content ul li:nth-child(1) .answer {
+    display: block;
+}
+
+.score-nav {
+    position: fixed;
+    right: 5px;
+    bottom: 5%;
+}
+
+.score-nav a {
+    background: url(../../images/quick_nav.png) no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.score-nav ul {
+    width: 85px;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.score-nav ul li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #555;
+}

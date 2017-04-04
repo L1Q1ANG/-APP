@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul, ol {
+  list-style: none; }
+
+.teacon-main {
+  width: 100% !important;
+  -webkit-box-flex: 1;
+  padding-top: 55px;
+  overflow: hidden; }
+  .teacon-main .tea_box_header {
+    height: 55px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 333; }
+    .teacon-main .tea_box_header a {
+      line-height: 55px;
+      font-size: .28rem;
+      color: #893e20; }
+    .teacon-main .tea_box_header a:nth-child(1) {
+      position: absolute;
+      left: 0;
+      width: .18rem !important;
+      text-align: center;
+      margin-left: .1rem; }
+    .teacon-main .tea_box_header a:nth-child(2) {
+      position: absolute;
+      right: .4rem;
+      width: .3rem;
+      margin-right: .6rem;
+      text-align: center; }
+    .teacon-main .tea_box_header a:nth-child(3) {
+      position: absolute;
+      right: .3rem;
+      width: .3rem;
+      margin-right: .3rem;
+      text-align: center; }
+    .teacon-main .tea_box_header a:nth-child(4) {
+      position: absolute;
+      right: .2rem;
+      width: .3rem;
+      text-align: center; }
+
+.teacon-main .teacon-main-swiper {
+  width: 100% !important;
+  height: auto; }
+  .teacon-main .teacon-main-swiper .swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    z-index: 5; }
+  .teacon-main .teacon-main-swiper .swiper-con {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    background: #000;
+    opacity: 0.6;
+    z-index: 11;
+    display: -webkit-box; }
+    .teacon-main .teacon-main-swiper .swiper-con i {
+      color: #fff;
+      display: block;
+      width: .5rem;
+      height: 100%;
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      background-color: #7c371b; }
+    .teacon-main .teacon-main-swiper .swiper-con span {
+      display: block;
+      height: 100%;
+      -webkit-box-flex: 1;
+      color: #fff;
+      padding-left: 10px; }
+
+.teacon-main .teacon-main-swiper .swiper-wrapper {
+  width: 100% !important;
+  height: auto; }
+  .teacon-main .teacon-main-swiper .swiper-wrapper img {
+    width: 100% !important;
+    display: block; }
+
+.teacon-main .teacon-main-menu-1 {
+  width: 100% !important;
+  height: auto;
+  overflow: hidden; }
+  .teacon-main .teacon-main-menu-1 .menu-item {
+    width: 100% !important;
+    height: auto;
+    display: -webkit-box;
+    margin: 0.1rem 0; }
+    .teacon-main .teacon-main-menu-1 .menu-item li {
+      width: 33.33333%;
+      height: auto; }
+      .teacon-main .teacon-main-menu-1 .menu-item li a {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        text-decoration: none; }
+        .teacon-main .teacon-main-menu-1 .menu-item li a .site-icon {
+          border-radius: 50%;
+          font-size: 24px; }
+      .teacon-main .teacon-main-menu-1 .menu-item li a:hover {
+        color: #8e350e; }
+
+.teacon-main .teacon-main-menu-2 {
+  width: 100% !important;
+  height: auto; }
+  .teacon-main .teacon-main-menu-2 ul {
+    width: 100% !important;
+    height: auto; }
+    .teacon-main .teacon-main-menu-2 ul li {
+      width: 100%;
+      height: auto; }
+      .teacon-main .teacon-main-menu-2 ul li a {
+        display: block;
+        display: -webkit-box;
+        width: 100% !important;
+        height: 100%;
+        text-decoration: none;
+        -webkit-box-align: center;
+        -webkit-box-pack: center; }
+        .teacon-main .teacon-main-menu-2 ul li a img {
+          display: block;
+          border: none;
+          width: 8% !important;
+          margin-left: 5%; }
+        .teacon-main .teacon-main-menu-2 ul li a span {
+          display: block;
+          width: 80% !important;
+          height: 100%;
+          font-size: 15px;
+          padding-left: 10px;
+          line-height: 0.5rem; }
+          .teacon-main .teacon-main-menu-2 ul li a span i {
+            text-align: right;
+            padding-left: 80%; }
+      .teacon-main .teacon-main-menu-2 ul li .num-list {
+        width: 100%;
+        height: auto;
+        display: none; }
+        .teacon-main .teacon-main-menu-2 ul li .num-list b {
+          width: 19.9%;
+          display: block;
+          float: left;
+          height: .4rem;
+          text-align: center;
+          line-height: .4rem;
+          border-left: 0;
+          border: 1px solid #ccc;
+          box-sizing: border-box; }
+
+/* .teacon-main .teacon-main-menu-2 ul li a span{
+	display:block;
+	width: 80% !important;
+	font-size:15px;
+	color:#ccc;
+	line-height:0.5rem;
+	padding-left:10px;
+	i{
+		text-align:right;
+		padding-left:85%;
+	}
+} */
+.teacon-main .teacon-main-menu-3 {
+  width: 100%;
+  height: auto;
+  overflow: auto; }
+  .teacon-main .teacon-main-menu-3 .teacon-main-ping {
+    width: 100%;
+    height: auto; }
+    .teacon-main .teacon-main-menu-3 .teacon-main-ping h3 {
+      background: #eeeeee;
+      line-height: 0.4rem;
+      font-size: 15px;
+      padding: 0 0.333333rem;
+      width: 100%; }
+    .teacon-main .teacon-main-menu-3 .teacon-main-ping .teacon-main-ping-item {
+      width: 100%;
+      height: auto; }
+      .teacon-main .teacon-main-menu-3 .teacon-main-ping .teacon-main-ping-item li {
+        float: left;
+        width: 25%;
+        text-align: center;
+        margin-top: 0.1rem; }
+        .teacon-main .teacon-main-menu-3 .teacon-main-ping .teacon-main-ping-item li span {
+          display: block;
+          width: 100%;
+          display: -webkit-box;
+          -webkit-box-align: center;
+          -webkit-box-pack: center; }
+          .teacon-main .teacon-main-menu-3 .teacon-main-ping .teacon-main-ping-item li span img {
+            display: block;
+            width: 50%;
+            border: 1px solid #ccc;
+            border-radius: 50%; }
+        .teacon-main .teacon-main-menu-3 .teacon-main-ping .teacon-main-ping-item li b {
+          line-height: 0.3rem; }
+  .teacon-main .teacon-main-menu-3 .teacon-main-pai {
+    width: 100%;
+    height: auto;
+    clear: both;
+    margin-bottom: 0.8rem;
+    overflow: hidden;
+    position: relative; }
+    .teacon-main .teacon-main-menu-3 .teacon-main-pai h4 {
+      background: #eeeeee;
+      line-height: 0.4rem;
+      font-size: 15px;
+      padding: 0 0.333333rem;
+      width: 100%; }
+    .teacon-main .teacon-main-menu-3 .teacon-main-pai .teacon-main-pai-item {
+      width: 100%;
+      height: auto;
+      overflow: auto; }
+      .teacon-main .teacon-main-menu-3 .teacon-main-pai .teacon-main-pai-item li {
+        float: left;
+        width: 19.3%;
+        height: 0.4rem; }
+        .teacon-main .teacon-main-menu-3 .teacon-main-pai .teacon-main-pai-item li a {
+          width: 100%;
+          display: block;
+          height: .4rem; }
+          .teacon-main .teacon-main-menu-3 .teacon-main-pai .teacon-main-pai-item li a span {
+            width: 100%;
+            border: 1px solid #f2f2f2;
+            height: .4rem;
+            display: block;
+            text-align: center;
+            line-height: 0.4rem; }
+    .teacon-main .teacon-main-menu-3 .teacon-main-pai .pai-list {
+      width: 100%;
+      height: auto !important;
+      position: absolute;
+      top: .4rem;
+      background: #fff;
+      display: none; }
+      .teacon-main .teacon-main-menu-3 .teacon-main-pai .pai-list b {
+        float: left;
+        width: 33.333%;
+        height: .4rem;
+        text-align: center;
+        line-height: .4rem;
+        border: 1px solid #ccc; }
+        .teacon-main .teacon-main-menu-3 .teacon-main-pai .pai-list b i {
+          width: 60%;
+          display: inline-block;
+          text-align: right; }
+
+.teacon-main .teacon-main-menu-4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.55rem;
+  overflow: hidden; }
+  .teacon-main .teacon-main-menu-4 .nav {
+    width: 100%; }
+    .teacon-main .teacon-main-menu-4 .nav .swiper-slide {
+      width: auto !important;
+      text-align: center;
+      font-size: 0.14rem;
+      margin: 0.1rem 0.2rem; }
+      .teacon-main .teacon-main-menu-4 .nav .swiper-slide img {
+        width: 0.5rem;
+        display: block;
+        margin-bottom: 0.05rem; }
+      .teacon-main .teacon-main-menu-4 .nav .swiper-slide span {
+        margin-top: 0.05rem; }
+  .teacon-main .teacon-main-menu-4 .teacon-main-short {
+    width: 100%;
+    height: auto; }
+    .teacon-main .teacon-main-menu-4 .teacon-main-short h3 {
+      line-height: 0.4rem;
+      font-size: 18px;
+      padding: 0 0.233333rem;
+      width: 100%;
+      color: #ccc;
+      margin-top: 0.1rem;
+      border: 1px solid #f2f2f2; }
+    .teacon-main .teacon-main-menu-4 .teacon-main-short .teacon-main-short-item {
+      width: 100%;
+      height: auto;
+      margin-top: 0.1rem; }
+      .teacon-main .teacon-main-menu-4 .teacon-main-short .teacon-main-short-item li {
+        height: 0.3rem;
+        width: 100%; }
+        .teacon-main .teacon-main-menu-4 .teacon-main-short .teacon-main-short-item li a {
+          width: 90%;
+          display: block;
+          margin-left: 5%;
+          position: relative; }
+          .teacon-main .teacon-main-menu-4 .teacon-main-short .teacon-main-short-item li a em {
+            vertical-align: middle;
+            display: inline-block;
+            width: 0.15rem;
+            color: #fff;
+            background: #893e20;
+            height: 0.15rem;
+            border-radius: 50%;
+            font-size: 10px;
+            text-align: center;
+            line-height: 0.15rem;
+            margin-right: 0.1rem; }
+          .teacon-main .teacon-main-menu-4 .teacon-main-short .teacon-main-short-item li a .score {
+            position: absolute;
+            right: 0;
+            color: #893e20; }
+          .teacon-main .teacon-main-menu-4 .teacon-main-short .teacon-main-short-item li a .font-size {
+            background: #ddd; }
+    .teacon-main .teacon-main-menu-4 .teacon-main-short p {
+      width: 90%;
+      margin: 0 auto;
+      line-height: 0.4rem;
+      font-size: 18px;
+      color: #ccc;
+      text-align: center;
+      background: #f5f5f5; }
+
+/*# sourceMappingURL=tea_con.css.map */

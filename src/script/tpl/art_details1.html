@@ -1,0 +1,63 @@
+<div class="art-details1">
+	<header class="det1-header">
+        <a href="javascript:;" class="iconfont det1-a-left" ng-click="back()">&#xe61c;</a>
+        <a href="javascript:;" class="iconfont">&#xe629;</a>
+        <a href="javascript:;" class="iconfont">&#xe607;</a>
+        <a href="javascript:;" class="iconfont">&#xe676;</a>
+        <a href="javascript:;" class="iconfont">&#xe691;</a>
+    </header>
+    <section class="det1-main">
+    	<h3>我们为什么喝茶？</h3>
+    	<small>发布时间：2017-01-25&nbsp;&nbsp;作者:via、天棒&nbsp;&nbsp;阅读量：15.66万</small>
+    	<p>水，是生命的必需品。但是茶，并不是。当然，生活在苦寒之地的边疆人民除外。</p>
+    	<p>在满足了基本生理需求的基础上，人们总是有这样那样的代替性饮品，去满足有关口舌的种种欲望。</p>
+    	<p>那么我们为什么需要喝茶？</p>
+    	<br />
+    	<p>***</p>
+    	<br />
+    	<p>加班小王子说，需要提神：两路口高圆圆说，可以减肥；大万金总说，酒桌上扛不住，那就到茶桌上解决；更多的年轻人说，他们只是想喝一杯有味道的水。</p>
+    	<p>正如，一万个人能说出一万个讨厌周立波的理由；一万个人，能从说出一万个选择喝茶的理由。虽然很多理由，是出于实用主义的选择。</p>
+    	<br />
+    	<img src="./src/images/8475885ce25c4c19.jpg!600" alt="" />
+    	<br />
+    	<p>这当然没什么不好。因为你这才发现，茶居然能成为满足所有人所有不同需求的，放之四海皆准的，物质层面的补给。</p>
+    	<p>就好像如果绘画可以帮你更容易地跨进大学校门，如果业余码字可以帮你缓解房贷压力，为什么不呢？</p>
+    	<p>不过，如果学画仅仅是为了升学加分，写作仅仅是为了赚取稿费，那也真的会有那么一点可惜。因为，你可能不经意间辜负、错过了一些什么。</p>
+    	<p>那种东西可能是叫做，乐趣，或者叫精神慰藉。</p>
+    	<p>而有没有从事情本身得到乐趣和享受，反过来对作品产生的影响，也往往区分着庸人和艺术家，写手和作家，流水线工人和匠人。</p>
+    	<p>这种感悟，有故事的老男人更有发言权。</p>
+    	<p>蔡澜先生就说，“真情流露，就有禅味。有禅味，道即生。”</p>
+    	<br />
+    	<p>***</p>
+    	<br />
+    	<p>喝茶的乐趣，自然先在“口舌之悦”。那是满足味蕾感官刺激的首要条件，也是茶与人体沟通的第一道交汇。</p>
+    	<p>茶叶来自草木。不同的地缘，赐予不同的茶种和不同的制茶方式。窃以为，要论饮品香气和滋味的丰富性，还真没有哪一种饮品能跟茶相提并论的。</p>
+    	<br />
+    	<img src="src/images/8475885ce25c4c19.jpg!600" alt="" />
+    	<br />
+    	<p>茶叶也是最能代表大自然天人哲学的一种饮品。它带有丰富的自然讯息。</p>
+    	<p>即使我们已经远离自然，住在喧嚣的水泥丛林里——泡茶，便是入静的方便法门；喝茶，便是与自然、与自己沟通连接的方式。</p>
+    	<p>于是，在一杯完美茶汤的追逐过程中，有人焚香、插花、挂画、更衣。有人用最好的茶，最贵的器，最纯净的水，最会泡茶的人……</p>
+    	<p>茶之道，各不同。但共通的是，他们都是用仪式感的构建，用尽善尽美的“打开方式”，区隔生活和艺术，联接内心和世界，并最终指向茶人们对一口极致汤感的追求。</p>
+    	<p>而何为“极致茶汤”？修身悦己就足够。</p>
+        <h3><span>评论</span><a href=""><i class="iconfont">&#xe678;</i>评论</a></h3>
+         <ul>
+            <li ng-repeat="item in da.comment">
+                <dl>
+                    <dt><img ng-src="{{item.src}}" alt="" /></dt>
+                    <dd>
+                        <p>{{item.name}}</p>
+                        <p>{{item.content}}</p>
+                        <p><span>{{item.time}}</span><a href="javascript:;"><i class="iconfont">&#xe63f;</i>{{item.num}}</a><a ui-sref="comment"><i class="iconfont">&#xe678;</i>回复</a></p>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </section>
+    <footer class="det1-footer">
+        <a href="javascript:;" ng-click=""><i class="iconfont">&#xe64c;</i>分享</a>
+        <a href="javascript:;"><i class="iconfont">&#xe619;</i>收藏</a>
+        <a href="javascript:;"><i class="iconfont">&#xe63f;</i>赞</a>
+    	<a class="det1-footer-comment" ui-sref="comment">评论</a>
+    </footer>
+</div>

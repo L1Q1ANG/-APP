@@ -1,0 +1,159 @@
+body,html,.wrap{
+    width: 100%;
+    height: 100%;
+}
+.login-wrap {
+    width: 100%;
+    height: 100%;
+    background: #fdfdfd;
+}
+
+.login-header {
+    height: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.5rem;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    color: #893e20;
+    background: #fff;
+}
+
+.login-header div h2 {
+    font-weight: normal;
+}
+
+.login-header div a {
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    font-size: 20px;
+    color:#893e20;
+}
+
+.login-main {
+    width: 100%;
+}
+
+.login-Verification {
+    width: 100%;
+    margin-top: 0.1rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.login-Verification div {
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.login-Verification div span {
+    margin-right: 0.1rem;
+    margin-top: 0.03rem;
+    font-size: 16px;
+    color: #000;
+}
+
+.login-Verification div input {
+    border: none;
+    font-size: 16px;
+    width: 90%;
+}
+
+.login-button {
+    width: 100%;
+    margin-top: 0.1rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    height: 0.45rem;
+}
+
+.login-button button {
+    width: 100%;
+    background: #893e20;
+    color: #fff;
+    height: 100%;
+    font-size: 18px;
+    border: none;
+    border-radius: 0.05rem;
+}
+
+.login-register {
+    width: 100%;
+    margin-top: 0.1rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+
+.login-register a {
+    font-size: 14px;
+    color: #000;
+}
+
+.login-register a:nth-child(2) {
+    float: right;
+}
+
+.login-fast {
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.login-fast .line {
+    width: 1.3rem;
+    position: absolute;
+    left: 0.1rem;
+    top: 50%;
+    border-top: 1px solid #ccc;
+}
+
+.login-fast .line2 {
+    width: 1.3rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 50%;
+    border-top: 1px solid #ccc;
+}
+
+.login-fast span:nth-child(2) {
+    font-size: 14px;
+    padding-top: 0.05rem;
+}
+
+.login-list {
+    width: 100%;
+    padding: 0.32rem 0;
+    text-align: center;
+}
+
+.login-list a {
+    width: 0.5rem;
+    height: 0.5rem;
+    color: #fff;
+    line-height: 0.5rem;
+    text-align: center;
+    margin-right: 0.2rem;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.login-list a:nth-child(1) {
+    background: green;
+    font-size: 36px;
+}
+
+.login-list a:nth-child(2) {
+    background: #18b4ed;
+    font-size: 36px;
+}
+
+.login-list a:nth-child(3) {
+    background: #f55a6a;
+    font-size: 36px;
+}

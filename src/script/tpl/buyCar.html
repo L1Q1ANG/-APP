@@ -1,0 +1,53 @@
+<div class="buyCar_box" my-num>
+    <header class="buyCar_box_header">
+        <a class="iconfont" ng-click="back()">&lt;</a>
+        <span>购物车</span>
+        <a class="edit" href="javascript:;">编辑</a>
+    </header>
+    <div class="buyCar_con">
+        <!-- <div class="buyCar_info">
+            <p><a ui-sref="login">立即登录</a>登陆后同步电脑与手机购物车的商品</p>
+        </div>
+        <div class="buyCar_empty">
+            <span class="iconfont">&#xe678;</span>
+            <h2>您的购物车还是空的呦</h2>
+            <p ui-sref="first.call">去市集逛逛</p>
+        </div> -->
+        <ul class="shop-list">
+            <li ng-repeat="item in obj track by $index" ng-click="oncl()">
+                <h3><input type="checkbox" ng-checked="comm" /><span>{{ item.name }}</span></h3>
+                <div class="li-main">
+                    <input class="che" type="checkbox" ng-checked="comm" />
+                    <dl>
+                        <dt><img ng-src="{{ item.src }}" alt="" /></dt>
+                        <dd>
+                            <p>{{ item.main }}</p>
+                            <div class="dl-bottom">
+                                <span class="dl-bottom-text">{{ item.text }}</span>
+                                <div class="dl-bottom-jj">
+                                    <span class="sp-btn" ng-click="reduce(item,$index)">-</span>
+                                    <input type="text" value="{{ item.num }}" class="count">
+                                    <span class="sp-btn" ng-click="add(item)">+</span>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer class="buyCar_box_foot">
+        <div class="buyCar_box_footleft">
+            <input type="checkbox" id="comms" ng-model="comm" /><label for="comm">全选</label>
+        </div>
+        <div class="buyCar_box_footright">
+            <span>
+                <p><em>合计:</em><i>0.00</i></p>
+                <p>不含运费</p>
+            </span>
+            <span class="settlement">结算(<em></em>)</span>
+            <span class="remo">删除(<em></em>)</span>
+        </div>
+    </footer>
+    
+</div>

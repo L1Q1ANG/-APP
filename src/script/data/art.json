@@ -1,0 +1,197 @@
+{
+    "newhot":[
+        {
+            "id": 1,
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/346589adfa26d201.jpg",
+            "title": "小丸子1",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 2,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/438589ae815cc458.jpg",
+            "title": "小丸子2",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 3,
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/782589ae991b59d0.jpg",
+            "title": "小丸子3",
+            "config": "正月十五闹元宵，家家团圆乐逍遥，2017的元宵节圈子邀您一起抢楼“晒元宵”啦，准备好了吗",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 4,
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/346589adfa26d201.jpg",
+            "title": "小丸子1",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 5,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/438589ae815cc458.jpg",
+            "title": "小丸子2",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 6,
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/782589ae991b59d0.jpg",
+            "title": "小丸子3",
+            "config": "正月十五闹元宵，家家团圆乐逍遥，2017的元宵节圈子邀您一起抢楼“晒元宵”啦，准备好了吗",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 7,
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/346589adfa26d201.jpg",
+            "title": "小丸子1",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 8,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/438589ae815cc458.jpg",
+            "title": "小丸子2",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 9,
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/782589ae991b59d0.jpg",
+            "title": "小丸子3",
+            "config": "正月十五闹元宵，家家团圆乐逍遥，2017的元宵节圈子邀您一起抢楼“晒元宵”啦，准备好了吗",
+            "num": "20",
+            "look": "1879"
+        }
+    ],
+    "special":[
+        {
+            "id": 101,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/414589aadcc1e012.jpg!750500",
+            "title": "小丸子1",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 102,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/86458884426b389f.jpg!750500",
+            "title": "小丸子2",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 103,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/67058775f1722b4b.jpg!750500",
+            "title": "小丸子3",
+            "config": "正月十五闹元宵，家家团圆乐逍遥，2017的元宵节圈子邀您一起抢楼“晒元宵”啦，准备好了吗",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 104,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/414589aadcc1e012.jpg!750500",
+            "title": "小丸子1",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 105,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/86458884426b389f.jpg!750500",
+            "title": "小丸子2",
+            "config": "最近许多茶友询问千款茶评上榜茶样的发货情况，所以特发此公告，相关问题解答都在这里哦！",
+            "num": "20",
+            "look": "1879"
+        },
+        {
+            "id": 106,
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/67058775f1722b4b.jpg!750500",
+            "title": "小丸子3",
+            "config": "正月十五闹元宵，家家团圆乐逍遥，2017的元宵节圈子邀您一起抢楼“晒元宵”啦，准备好了吗",
+            "num": "20",
+            "look": "1879"
+        }
+    ],
+    "tabs":[
+        {
+            "id":"1",
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/943589c34e63833d.jpg",
+            "title": "茶生活",
+            "cont":"享受一场春日郊外茶回吧"
+        },
+        {
+            "id":"2",
+            "url":"./src/script/tpl/art_details1.html",
+            "img": "./src/images/440589c35044f9e4.jpg",
+            "title": "茶博识",
+            "cont":"观音韵的香到底从哪来"
+
+        },
+        {
+            "id":"3",
+            "url":"./src/script/tpl/art_details2.html",
+            "img": "./src/images/278589c34c6914af.jpg",
+            "title": "茶博识",
+            "cont":"盘点云南百年老字号的风云往事"
+        }
+    ],
+    "comment":[
+        {
+            "name":"茶小猫",
+            "src":"./src/images/site_logo.png",
+            "content":"谢谢分享。",
+            "num":1,
+            "time":"2017-02-16"
+        },
+        {
+            "name":"吟茶",
+            "src":"./src/images/site_logo.png",
+            "content":"哈哈哈哈哈哈哈哈哈",
+            "num":0,
+            "time":"2017-02-13"
+        },
+        {
+            "name":"茶小猫",
+            "src":"./src/images/site_logo.png",
+            "content":"谢谢分享。",
+            "num":0,
+            "time":"2017-02-11"
+        },
+        {
+            "name":"吟茶",
+            "src":"./src/images/site_logo.png",
+            "content":"12312312312",
+            "num":0,
+            "time":"2017-02-09"
+        }
+    ]
+}
+
+    

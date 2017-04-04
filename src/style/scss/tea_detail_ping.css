@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .tea-detail-ping {
+  width: 100%;
+  height: 100%; }
+
+.tea-detail-ping {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+  .tea-detail-ping .ping-head {
+    width: 100%;
+    height: .5rem;
+    background: #fff;
+    display: -webkit-box;
+    border-bottom: 1px solid #ccc; }
+    .tea-detail-ping .ping-head h2 {
+      height: .5rem;
+      line-height: .5rem;
+      font-size: 14px;
+      text-align: center;
+      width: 90%; }
+    .tea-detail-ping .ping-head span {
+      display: block;
+      width: 5%;
+      height: .5rem;
+      line-height: .5rem;
+      margin-left: 3%; }
+  .tea-detail-ping .ping-main {
+    width: 100%;
+    height: auto; }
+    .tea-detail-ping .ping-main .title {
+      width: 100%;
+      height: .6rem;
+      display: -webkit-box; }
+      .tea-detail-ping .ping-main .title h3 {
+        height: .6rem;
+        line-height: .6rem;
+        -webkit-box-flex: 1;
+        padding-left: 10px; }
+        .tea-detail-ping .ping-main .title h3 i {
+          color: orange; }
+      .tea-detail-ping .ping-main .title span {
+        display: block;
+        height: .6rem;
+        line-height: .6rem;
+        -webkit-box-flex: 1;
+        text-align: center;
+        color: #893e20; }
+      .tea-detail-ping .ping-main .title a {
+        display: block;
+        height: .6rem;
+        line-height: .6rem;
+        -webkit-box-flex: 1;
+        text-align: right;
+        color: #000;
+        text-decoration: none;
+        cursor: pointer; }
+        .tea-detail-ping .ping-main .title a i {
+          padding-left: 5px;
+          padding-right: 5px; }
+    .tea-detail-ping .ping-main .ping-main-list {
+      width: 90%;
+      height: auto;
+      margin-left: 5%;
+      background: #f2f2f2; }
+      .tea-detail-ping .ping-main .ping-main-list li {
+        width: 100%;
+        height: .4rem;
+        display: -webkit-box; }
+        .tea-detail-ping .ping-main .ping-main-list li a {
+          color: #000;
+          text-decoration: none;
+          display: block;
+          -webkit-box-flex: 2;
+          padding-left: .2rem;
+          line-height: .4rem; }
+          .tea-detail-ping .ping-main .ping-main-list li a i {
+            color: orange; }
+        .tea-detail-ping .ping-main .ping-main-list li span {
+          display: block;
+          -webkit-box-flex: 2;
+          text-align: right;
+          padding-right: .2rem;
+          line-height: .4rem;
+          color: #893e20; }
+    .tea-detail-ping .ping-main .ping-con {
+      width: 100%;
+      height: auto;
+      margin-top: .1rem; }
+      .tea-detail-ping .ping-main .ping-con input {
+        width: 90%;
+        display: block;
+        border: 1px solid #ccc;
+        height: .6rem;
+        margin-left: 5%;
+        border-radius: 10px 10px;
+        padding-left: 10px;
+        padding-bottom: 20px; }
+      .tea-detail-ping .ping-main .ping-con p {
+        padding-left: .2rem;
+        width: 100%;
+        height: .3rem;
+        line-height: .3rem; }
+      .tea-detail-ping .ping-main .ping-con .ping-con-img {
+        width: 100%;
+        height: auto; }
+        .tea-detail-ping .ping-main .ping-con .ping-con-img img {
+          width: 40px;
+          margin-left: .2rem; }
+    .tea-detail-ping .ping-main .button {
+      width: 90%;
+      height: .4rem;
+      background: #893e20;
+      display: block;
+      border: 0;
+      margin-left: 5%;
+      margin-top: .3rem;
+      color: #fff; }
+
+/*# sourceMappingURL=tea_detail_ping.css.map */

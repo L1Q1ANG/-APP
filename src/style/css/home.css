@@ -1,0 +1,268 @@
+.h_box {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.header {
+    width: 100%;
+    height: .56rem;
+    background-color: #fff;
+    color: #fff;
+    z-index: 1111;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+}
+
+.header a {
+    line-height: .56rem;
+    font-size: .28rem;
+    color: #893e20;
+    text-decoration: none;
+}
+
+.header a:nth-child(1) {
+    position: absolute;
+    left: 0;
+    width: .18rem;
+    text-align: center;
+    margin-left: .1rem;
+}
+
+.header a:nth-child(3) {
+    position: absolute;
+    right: .3rem;
+    width: .3rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.header a:nth-child(4) {
+    position: absolute;
+    right: .2rem;
+    width: .3rem;
+    text-align: center;
+}
+
+.header .a2 {
+    position: absolute;
+    right: .4rem;
+    width: .3rem;
+    margin-right: .6rem;
+    text-align: center;
+}
+
+.header .header_img {
+    position: absolute;
+    width: .3rem;
+    height: .3rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -.15rem;
+    margin-top: -.15rem;
+}
+
+.header .header_img img {
+    display: block;
+    width: 100%;
+}
+
+.ng-scope {
+    width: 100%;
+    display: block;
+}
+
+.h_main {
+    padding: 0.55rem 0;
+    width: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+}
+
+.h_box .h_main .swiper-container .swiper-pagination {
+    position: absolute;
+    bottom: 0.05rem;
+    text-align: right;
+    z-index: 5;
+}
+
+.h_box .h_main .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    display: inline-block;
+    width: 0.04rem;
+    height: 0.04rem;
+    background: transparent;
+}
+
+.h_box .h_main .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    background: #fff;
+}
+
+.h_main_nav {
+    width: 100%;
+    background: #fff;
+    height: 1.4rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.h_main_nav h2 {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    font-weight: 400;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+
+.h_main_nav .nav {
+    width: 100%;
+}
+
+.h_main_nav .swiper-slide {
+    width: auto !important;
+    text-align: center;
+    font-size: 0.14rem;
+    margin: 0.1rem 0.12rem;
+}
+
+.h_main_nav .swiper-slide img {
+    width: 0.5rem;
+    display: block;
+    margin-bottom: 0.05rem;
+}
+
+.h_main_nav .swiper-slide span {
+    margin-top: 0.05rem;
+}
+
+.l_shadow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px !important;
+    line-height: 24px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 11;
+    display: -webkit-box !important;
+}
+
+.l_shadow i {
+    display: block;
+    height: 100%;
+    width: .5rem;
+    text-align: center;
+    background-color: #7c371b;
+    color: #fff;
+    font-style: normal;
+    font-size: .12rem;
+}
+
+.l_shadow span {
+    display: block;
+    height: 100%;
+    -webkit-box-flex: 1;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.h_mian_content {
+    width: 100%;
+}
+
+.content_one {
+    width: 100%;
+    padding-bottom: 0.05rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.content_one_title {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.content_one_title h2 {
+    float: left;
+    font-size: 0.14rem;
+    font-weight: 400;
+    margin-left: 0.2rem;
+}
+
+.content_one_title a {
+    float: right;
+    font-size: 0.14rem;
+    margin-right: 0.2rem;
+    color: #999;
+}
+
+.content_one .swiper-container {
+    padding: 0 0.2rem 0 0.2rem;
+    box-sizing: border-box;
+}
+
+.content_one .swiper-slide img {
+    display: block;
+}
+
+.content_one .swiper-slide p {
+    margin: 0.05rem auto;
+    width: 95%;
+    font-size: 0.12rem;
+}
+
+.content_one .swiper-slide p span {
+    color: #893e20 !important;
+}
+
+.content_one .swiper-slide .pingL {
+    width: 95%;
+    margin: 0.05rem auto;
+}
+
+.content_one .swiper-slide .pingL span {
+    color: #888;
+    width: 0.94rem;
+    text-align: left;
+    font-weight: normal;
+    overflow: hidden;
+    float: left;
+}
+
+.content_one .swiper-slide .pingL span:last-child {
+    text-overflow: ellipsis;
+    float: right;
+    white-space: nowrap;
+}
+
+.content_one .swiper-slide p em {
+    background: url(../../images/icon_headlines.png) no-repeat 0 0 / 100% auto;
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.15rem;
+    line-height: 0.15rem;
+    color: aliceblue;
+    text-align: center;
+    font-size: 0.08rem;
+}
+
+.content_one .swiper-slide .guanZ {
+    width: 95%;
+    margin: 0.05rem auto;
+}
+
+.content_one .swiper-slide .guanZ span {
+    color: #888;
+    width: 0.94rem;
+    text-align: left;
+    font-weight: normal;
+    overflow: hidden;
+    float: left;
+    font-size: 0.12rem;
+}

@@ -1,0 +1,118 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.ng-scope {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+.y_box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.y_nav {
+  width: 100%;
+  height: .5rem;
+  margin-top: .55rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-flex;
+  position: fixed;
+  top: 0rem;
+  left: 0;
+  background: #fff;
+  z-index: 999; }
+  .y_nav a {
+    color: #333;
+    line-height: .5rem;
+    width: 50%;
+    text-align: center;
+    font-size: .18rem;
+    border-right: 1px solid #ccc; }
+
+.y_section {
+  width: 100%;
+  -webkit-flex-grow: 1;
+  padding-top: 1.2rem;
+  background: #fff; }
+
+.y_main {
+  width: 100%;
+  height: auto; }
+  .y_main dl {
+    width: 100%;
+    height: 1.7rem;
+    border-bottom: 1px solid #ccc;
+    display: -webkit-flex;
+    position: relative; }
+    .y_main dl dt {
+      width: 1.2rem;
+      height: 1.3rem;
+      margin-top: .16rem; }
+      .y_main dl dt img {
+        width: 1.2rem;
+        height: 1.3rem;
+        margin-left: .16rem; }
+    .y_main dl dd {
+      -webkit-flex-grow: 1;
+      width: 100%;
+      margin-left: .3rem; }
+      .y_main dl dd h1 {
+        color: #333;
+        font-size: .18rem;
+        margin-top: .16rem;
+        font-weight: 100; }
+      .y_main dl dd p {
+        line-height: .3rem;
+        color: #999; }
+      .y_main dl dd span {
+        display: block;
+        width: .65rem;
+        height: .25rem;
+        border: 1px #893e20 solid;
+        text-align: center;
+        line-height: .25rem;
+        color: #893e20;
+        font-size: .14rem;
+        position: absolute;
+        top: 40%;
+        right: 5%; }
+
+.y_left {
+  width: 100%;
+  height: auto;
+  display: none; }
+  .y_left ul {
+    width: 100%;
+    height: auto; }
+    .y_left ul li {
+      width: 100%;
+      height: .4rem;
+      line-height: .4rem;
+      text-indent: .16rem;
+      font-size: .18rem; }
+
+.y_right {
+  width: 100%;
+  height: auto;
+  display: none; }
+  .y_right ul {
+    width: 100%;
+    height: auto; }
+    .y_right ul li {
+      width: 100%;
+      height: .4rem;
+      line-height: .4rem;
+      text-indent: .16rem;
+      font-size: .18rem; }
+
+.y_active {
+  color: #893e20; }
+
+/*# sourceMappingURL=yuan.css.map */

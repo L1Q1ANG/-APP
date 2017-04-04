@@ -1,0 +1,34 @@
+<div class="mingxing_box">
+     <header class='mingxing_box_header'>
+       <a href="javascript:;" class="icon" ng-click="back()">&#xe697;</a>
+	   <a href="javascript:;" class="iconfont">&#xe64c;</a>
+	   <a href="javascript:;" class="iconfont" ui-sref="search">&#xe672;</a>
+	   <a href="javascript:;" class="iconfont" ui-sref="login">&#xe648;</a>
+    </header>
+     <div class="mingxing_con">
+        <p class="mingxing_banner">
+        <img src="src/images/mingxing.png">
+        </p>
+    </div>
+    
+     <nav class="mingxing_nav">
+        <a ui-sref="mingxing.detail" ui-sref-active="active" class="active">
+           <i class="iconfont">&#xe7a4;</i> 
+           <span>藏品</span>
+        </a>
+        <a ui-sref-active="active">
+            <i class="iconfont" >&#xe7a4;</i> 
+            <span>作品</span>
+        </a>
+        <a ui-sref="mingxing.heji" ui-sref-active="active">
+            <i class="iconfont" >&#xe7a4;</i> 
+            <span>合集</span>
+        </a>
+        <a href="javascript:;" ui-sref-active="active">
+            <i class="iconfont" >&#xe7a4;</i>
+            <span>茗星汇</span>
+        </a>
+            
+    </nav>
+    <ui-view></ui-view>   
+</div>

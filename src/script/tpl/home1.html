@@ -1,0 +1,93 @@
+<div class='h_box'>
+    <header class="header">
+        <a href="javascript:;" class="iconfont" ui-sref="contents">&#xe8a6;</a>
+        <a href="http://m.chayu.com/" class="header_img"><img src="./src/images/site_logo.png" alt="" /></a>
+        <a href="javascript:;" class="iconfont" ui-sref="search">&#xe672;</a>
+        <a href="javascript:;" class="iconfont" ui-sref="login">&#xe648;</a>
+    </header>
+    <main class="h_main">
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" ng-repeat="item in data.data.home.tabs">
+                    <img ng-src="src/images/{{ item.img }}" />
+                </div>
+            </div>
+            <div class="l_shadow" ng-repeat="item in data.data.home.tabs">
+                <i>{{ item.title }}</i>
+                <span>{{ item.cont }}</span>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="h_main_nav">
+            <h2>茶评</h2>
+            <nav class="swiper-container nav">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide" ui-sref="detail" ng-repeat="item in data.data.list.items1">
+                        <img ng-src="src/images/{{ item.img }}" />
+                        <span>{{ item.cont }}</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="h_mian_content">
+            <div class="content_one">
+                <div class="content_one_title">
+                    <h2>市集</h2>
+                    <a ui-sref="first.call" class="icon iconfont">更多&#xe6a9;</a>
+                </div>
+                <div class="content_one_shiji">
+                    <div class="swiper-container one_shiji">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" ui-sref="home_cha" ng-repeat="item in data.data.home.shiji">
+                                <img ng-src="src/images/{{ item.img }}" />
+                                <p><span>{{ item.title }} |</span>{{ item.cont }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_one">
+                <div class="content_one_title">
+                    <h2>圈子</h2>
+                    <a ui-sref="first.detail" class="icon iconfont">更多&#xe6a9;</a>
+                </div>
+                <div class="content_one_shiji">
+                    <div class="swiper-container one_shiji">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" ng-repeat="item in data.data.home.quanzi">
+                                <img ng-src="src/images/{{ item.img }}" />
+                                <p>{{ item.cont }}</p>
+                                <div class="pingL">
+                                    <span>评论：{{ item.talk }}</span>
+                                    <span>阅读：{{ item.read }}</span>
+                                    <span>贴主：{{ item.name }}</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_one">
+                <div class="content_one_title">
+                    <h2>文章</h2>
+                    <a ui-sref="first.art" class="icon iconfont">更多&#xe6a9;</a>
+                </div>
+                <div class="content_one_shiji">
+                    <div class="swiper-container one_shiji">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" ng-repeat="item in data.data.home.wenzhang">
+                                <img ng-src="src/images/{{ item.img }}" />
+                                <p><em>{{ item.title }}</em>{{ item.cont }} </p>
+                                <div class="guanZ">
+                                    <span class="icon iconfont">&#xe641; {{ item.good }}</span>
+                                    <span class="icon iconfont">&#xe683; {{ item.read }}万</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

@@ -1,0 +1,103 @@
+body,html,.wrap{
+    width: 100%;
+    height: 100%;
+}
+.register-wrap {
+    width: 100%;
+    height: 100%;
+    background: #fdfdfd;
+}
+
+.register-wrap .register-header {
+    width: 100%;
+    height: 0.5rem;
+    margin-bottom: 0.1rem;
+    background: #fff;
+}
+
+.register-wrap .register-header div {
+    width: 100%;
+    line-height: 0.5rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.register-wrap .register-header div span {
+    position: absolute;
+    left: 0.1rem;
+    top: 0;
+    font-size: 0.26rem;
+    color: #893e20;
+}
+
+.register-wrap .register-header div h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #893e20;
+}
+
+.register-wrap .register-main {
+    width: 100%;
+    background: #fff;
+    height: auto;
+}
+
+.register-wrap .register-main .mainInt {
+    width: 94%;
+    height: 0.46rem;
+    margin-left: 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.register-wrap .register-main .mainInt input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.register-wrap .register-main .mainInt span {
+    font-size: 0.2rem;
+}
+
+.register-wrap .register-main .Verification {
+    position: relative;
+}
+
+.register-wrap .register-main .Verification a {
+    position: absolute;
+    right: 0.1rem;
+    top: 15%;
+    width: 0.9rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #893e20;
+    border: 1px solid #893e20;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.register-wrap .register-main .pwd {
+    border-bottom: none;
+}
+
+.register-wrap .btn {
+    width: 100%;
+    height: 0.4rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    margin-top: 0.15rem;
+}
+
+.register-wrap .btn button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #893e20;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+<div class='d_box'>
+    <header class="header">
+        <a href="javascript:;" class="iconfont" ui-sref='contents'>&#xe8a6;</a>
+        <a href="javascript:;" class="iconfont a2">&#xe64c;</a>
+        <a href="javascript:;" class="iconfont">&#xe672;</a>
+        <a href="javascript:;" class="iconfont">&#xe648;</a>
+    </header>
+    <main class="q_content">
+
+        <div class='q_ban'>
+            <img ng-repeat="item in lists.banner" ng-src="src/images/{{ item }}" />
+        </div>
+        <div class='q_nav'>
+            <a ui-sref='yuan'><b class="iconfont">&#xe606;</b><span>圈子</span></a>
+            <a ui-sref='speak'><b class="iconfont">&#xe6c5;</b><span>话题</span></a>
+            <a ui-sref='login'><b class="iconfont">&#xe678;</b><span>签到</span></a>
+        </div>
+        <div class='q_chose'>
+            <dl ui-sref='white' ng-repeat="item in lists.list">
+                <dt><img ng-src="src/images/{{ item.img }}"/></dt>
+                <dd>
+                    <h2>{{ item.title }}</h2>
+                    <p>关注：{{ item.watch }}</p>
+                    <p>帖子：{{ item.count }}</p>
+                </dd>
+            </dl>
+        </div>
+        <div class='q_main'>
+            <dl ng-repeat='m in lists.data'>
+                <dt><img ng-src='{{m.img}}'/></dt>
+                <dd>
+                    <h3>{{m.title}}</h3>
+                    <h4>{{m.config}}</h4>
+                    <P><span><em class='iconfont'>&#xe631;</em>{{m.num}}</span><span><em class='iconfont'>&#xe63a;</em>{{m.look}}</span></P>
+                </dd>
+            </dl>
+
+        </div>
+
+    </main>
+
+
+
+
+</div>

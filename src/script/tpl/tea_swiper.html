@@ -1,0 +1,76 @@
+<div class="teacon-main">
+    <header class="tea_box_header">
+    <a href="javascript:;" class="iconfont" ui-sref="contents">&#xe8a6;</a>
+    <a href="javascript:;" class="iconfont" ng-click="share()">&#xe64c;</a>
+    <a href="javascript:;" class="iconfont" ui-sref="search">&#xe672;</a>
+    <a href="javascript:;" class="iconfont" ui-sref="login">&#xe648;</a>
+    </header>
+    
+        <div class="swiper-container teacon-main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img ng-src="./src/images/426589a788ed68f5.jpg" alt="rhgurhughgrug">
+                </div>
+                <div class="swiper-slide">
+                    <img ng-src="./src/images/263589ae7e94eea4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img ng-src="./src/images/310589a71bc1273d.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-con">
+              <i>茶语</i>
+              <span>发给你发帖即可和南方法规及</span>
+            </div>
+           <div class="swiper-pagination"></div>
+   
+        </div>
+        <div class="teacon-main-menu-1">
+            <ul class="menu-item">
+               <!--  <li ng-repeat="item in list.tea_list" ui-sref="first.list.items({id:item.id})">
+                   <a href="">
+                       <i class="iconfont site-icon">&#xe63a;</i><br>
+                       {{item.title}}
+                   </a>
+               </li> -->
+               <li ui-sref="first.list.items1">
+                   <a href="">
+                       <i class="icon site-icon">&#xe609;</i><br>
+                       按茶类
+                   </a>
+               </li>
+               <li ui-sref="first.list.items2">
+                   <a href="">
+                       <i class="icon site-icon">&#xe60e;</i><br>
+                       按品牌
+                   </a>
+               </li>
+               <li ui-sref="first.list.items3">
+                   <a href="">
+                       <i class="icon site-icon">&#xe616;</i><br>
+                       按榜单
+                       
+                   </a>
+               </li>
+            </ul>
+        </div>
+       
+            <ui-view></ui-view> 
+            <!--<div class="teacon-main-menu-2">
+             <ul>
+                <li><a href=""><img src="src/images/ico_tea_all.png" alt=""><span>全部<i class="iconfont">&#xe65c;</i></span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_01.png" alt=""><span>绿茶<i class="iconfont">&#xe624;</i></span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_02.png" alt=""><span>乌龙<i class="iconfont">&#xe65c;</i></span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_03.png" alt=""><span>红茶<i class="iconfont">&#xe65c;</i></span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_04.png" alt=""><span>普洱<i class="iconfont">&#xe65c;</i></span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_05.png" alt=""><span>黑茶</span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_07.png" alt=""><span>白茶</span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_08.png" alt=""><span>黄茶</span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_09.png" alt=""><span>花茶</span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_10.png" alt=""><span>花茶</span></a></li>
+                <li><a href=""><img src="src/images/ico_tea_10.png" alt=""><span>花茶</span></a></li>
+                
+            </ul>
+        </div> -->
+   
+</div>

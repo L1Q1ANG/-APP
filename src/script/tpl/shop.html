@@ -1,0 +1,85 @@
+<div class="shop">
+    <header class="shop-header">
+        <h2>购物车 
+            <a href="javascript:;;" ng-if="flag" ng-click="editor()" ng-hide="!hide">编辑</a>
+            <a href="javascript:;;" ng-if="flag" ng-click="complete()" ng-hide="hide">完成</a>
+        </h2>
+
+    </header>
+    <div class="shop-content">
+        <div class="shop-login" ng-if="!flag">
+            <dl>
+                <dt class="icon">&#xe64f;</dt>
+                <dd>您的购物车还是空的哦</dd>
+            </dl>
+            <div class="shop-login-btn">
+                <!--<button>登录</button>-->
+                <button>去逛逛</button>
+            </div>
+        </div>
+        <div class="shop-list" ng-if="flag">
+            <ol class="shop-content-pro-header">
+                <li class="txt">自营商品满99包邮<span class="closeShope"></span></li>
+                <li class="shop-wang">
+                    <input type="checkbox" ng-model="obj.all" class="all" ng-click="checkAll()">
+                    <label for="all"></label>网酒网
+                </li>
+
+            </ol>
+            <ul class="shop-content-pro">
+                <li ng-repeat="item in list track by $index">
+                    <span>
+                    <input type="checkbox" ng-click="check($index,mod)" ng-model="mod"/>
+                    <label ></label>
+                </span>
+                    <dl>
+                        <dt>
+                            <img ng-src="{{item.img}}" alt="">
+                        </dt>
+                        <dd>
+                            <p>{{item.title}}</p>
+                            <p>
+                                <span>
+                                    ￥{{item.moeny}}
+                                </span>
+                                <i>
+                                    <b class="icon" ng-click="jian($index,mod)">&#xe729;</b>
+                                    <input type="text" value="{{item.count}}" />
+                                    <b class="icon add" ng-click="add($index,mod)">&#xe727;</b>
+                                </i>
+                            </p>
+                        </dd>
+                    </dl>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <div class="car_fix in" id="balance" ng-hide="!hide" ng-if="flag">
+        <p>
+            <em class="in_01">
+           <input type="checkbox" ng-model="obj.all" class="all" ng-click="checkAll()">
+           <label for="footAll"></label> 全选
+        </em>
+            <em class="in_02">
+            <span class="heji">
+                合计: <label id="sumPrice"> ￥{{total}}</label>
+            </span>
+            <span class="sumRedius" id="sumRedius">已优惠 ￥0.00</span>
+        </em>
+        </p>
+        <a href="javascript:void(0)" class="e_btn01" id="jiesuan" style="background-color: rgb(202, 9, 21); border: 1px solid rgb(202, 9, 21);" ng-click="settlement()">结算</a>
+    </div>
+    <div class="car_fix in" id="selet" ng-hide="hide" ng-if="flag">
+        <p>
+            <em class="in_01">
+           <input type="checkbox" ng-model="obj.all" class="all" ng-click="checkAll()">
+           <label for="footAll"></label> 全选
+        </em>
+
+        </p>
+        <a href="javascript:void(0)" class="e_btn02" id="shou" style="background-color: rgb(202, 9, 21); border: 1px solid rgb(202, 9, 21);" ng-click="shou()">收藏</a>
+        <a href="javascript:void(0)" class="e_btn01" style="background-color: rgb(202, 9, 21); border: 1px solid rgb(202, 9, 21);" ng-click="remove()">删除</a>
+    </div>
+</div>

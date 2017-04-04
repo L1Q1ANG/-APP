@@ -1,0 +1,184 @@
+<ui-view>
+<div class="page-wrapper user-wrapper">
+    <header class="header">
+        <a href="javascript:;" class="iconfont" ng-click="back()">&#xe8a6;</a>
+        <h2>我的茶语</h2>
+        <a href="javascript:;"></a>
+        <a href="javascript:;" class="iconfont setting" ui-sref="contents">设置</a>
+    </header>
+    <header class="user-person-data">
+        <div class="head-img">
+            <a href="http://m.user.chayu.com/profile">
+                <img src="http://img.chayu.com/avatar/default.jpg!160160">
+            </a>
+        </div>
+        <ul class="user-info clearfix">
+            <li class="name">
+                <a href="http://m.user.chayu.com/profile" class="user-name">266400</a>
+            </li>
+            <li class="currency">茶币<a href="http://m.user.chayu.com/treasure"><span class="color_coffe ml10">96</span></a></li>
+            <li class="strategy"><a href="http://m.chaping.chayu.com/tastingtask" class="color_coffe f14">茶币获取攻略>><i class="site-icon main-strategyright"></i></a></li>
+        </ul>
+        <a href="http://m.user.chayu.com/mingxing" class="sell-link">申请成为茗星</a>
+    </header>
+    <nav class="top-nav-bar clearfix">
+        <ul>
+            <li>
+                <a ui-sref="user.news">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>我的消息</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.collection">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>我的收藏</span>
+                </a>
+            </li>
+            <li class="comment-bar">
+                <a ui-sref="user.comment">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>我的评论</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.address">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>收货地址</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.gift">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>我的茶礼</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <aside class="order-act mb10 clearfix">
+        <h3><a ui-sref="first.home">活动</a></h3>
+        <ul>
+            <li>
+                <a ui-sref="user.gift">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>兑换茶礼</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <aside class="order-act mb10 clearfix">
+        <h3><a ui-sref="first.list">茶评</a></h3>
+        <ul>
+            <li>
+                <a ui-sref="user.gift">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>我的茶评</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.gift">
+                    <em class="iconfont">&#xe6c5;</em>
+                    <span>茶样兑换历史</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <aside class="order-act shiji-act mb10 clearfix">
+        <h3><a ui-sref="first.call">市集</a></h3>
+        <h4 class="shiji-act-type">
+<a ui-sref="user.whole" class="fl">我的订单</a><a ui-sref="user.whole" class="fr f12 color_999">查看全部订单&gt;<em class="site-icon main-right f16 color_999 ml20"></em></a>
+</h4>
+        <ul>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>待付款</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>待发货</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>待收货</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>待评价</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>退款/退货</span>
+                </a>
+            </li>
+        </ul>
+        <div class="line"></div>
+        <ul>
+            <li>
+                <a ui-sref="buyCar">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>购物车</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <i class="round"><b>4</b></i>
+                    <em class="main-dikouquan iconfont">&#xe7a4;</em>
+                    <span>抵扣券/卡</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>我的银行卡</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>贡献等级</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.whole">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>我的关注</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <aside class="order-act mb10 clearfix">
+        <h3><a ui-sref="first.detail">圈子</a></h3>
+        <ul>
+            <li>
+                <a ui-sref="user.gift">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>我的圈子</span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="user.gift">
+                    <em class="iconfont">&#xe7a4;</em>
+                    <span>我的话题</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <ul class="list-input mb10">
+        <li>
+            <a ui-sref="user.gift">
+意见与投诉
+<i class="main-right iconfont">&#xe7a4;</i>
+</a>
+        </li>
+    </ul>
+</div>
+</sui-view>

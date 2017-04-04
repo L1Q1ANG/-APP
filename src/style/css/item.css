@@ -1,0 +1,16 @@
+.i_box {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.ng-scope {
+    width: 100%;
+    display: block;
+}
+
+.i_main {
+    padding: 0.55rem 0;
+    width: 100%;
+}

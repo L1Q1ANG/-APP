@@ -1,0 +1,948 @@
+b {
+    font-weight: 400;
+}
+
+.shop {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-header {
+    height: 44px;
+    border-bottom: 1px solid #dedede;
+    font-size: 20px;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+
+.shop-header h2 {
+    height: 100%;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    font-weight: normal;
+}
+
+.shop-header h2 em {
+    position: absolute;
+    right: .1rem;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: #000;
+}
+
+.shop-header h2 a {
+    position: absolute;
+    right: .1rem;
+    font-size: 14px;
+}
+
+.shop-content {
+    padding: 44px 0 44px 0;
+    -webkit-flex: 1;
+    background: #f9f9f9;
+}
+
+.shop-content .shop-login,
+.shop-content .shop-list {
+    height: 100%;
+    padding-bottom: .5rem;
+}
+
+.shop-content .shop-login dl {
+    height: 65%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+.shop-content .shop-login dl dt {
+    font-size: 90px;
+    color: #bbb;
+}
+
+.shop-content .shop-login dl dd {
+    color: #bbb;
+}
+
+.shop-content .shop-login>div {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    padding: 0 12%;
+}
+
+.shop-content .shop-login>div button {
+    width: 42%;
+    height: 35px;
+    font-size: 18px;
+}
+
+.shop-content .shop-list .shop-content-pro-header {}
+
+.shop-content .shop-list .shop-content-pro-header li {
+    padding: 0 .1rem;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(1) {
+    height: 30px;
+    border-bottom: 1px solid #dedede;
+    line-height: 30px;
+    background: #f9f9f9;
+}
+
+.shop-content .shop-list li:nth-child(1) .closeShope {
+    float: right;
+    width: 14px;
+    height: 100%;
+    background: url(../image/icon/lepay_icon_layerclose.png) no-repeat center;
+    background-size: 14px auto;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(2) {
+    height: .35rem;
+    background: #f9f9f9;
+    margin-top: .1rem;
+    line-height: .35rem;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding-left: .41rem;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(2) input,
+.shop-content .shop-list .shop-content-pro-header li:nth-child(2) label {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(3) {
+    background: #fff;
+    height: .7rem;
+    padding-top: .08rem;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(3) i {
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    font-size: 1px;
+    padding: 0 .03rem;
+    margin-right: .05rem;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(3)>div {
+    display: inline-block;
+    position: relative;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(3)>div em {
+    z-index: 60;
+    color: #222;
+    background: #fff;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(3)>div b {
+    position: absolute;
+    left: 0;
+    top: .3rem;
+    color: #fff;
+    background: #888;
+    border-radius: 5px;
+    padding: 0 2px;
+    font-size: 16px;
+}
+
+.shop-content .shop-list .shop-content-pro-header li:nth-child(3) span {
+    float: right;
+    color: red;
+    background: #fff;
+}
+
+.shop-content .shop-list .shop-content-pro li {
+    padding: 0 .1rem;
+}
+
+.shop-content .shop-list li {
+    position: relative;
+}
+
+.shop-content .shop-list input[type=checkbox],
+.car_fix input[type=checkbox] {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: .1rem;
+    border-radius: 50%;
+    z-index: 6;
+    opacity: 0;
+}
+
+.car_fix input[type=checkbox] {
+    z-index: 10;
+}
+
+.shop-content .shop-list input[type=checkbox]+label,
+.car_fix input[type=checkbox]+label {
+    width: 21px;
+    height: 21px;
+    background: url("../image/icon/check_off.png") no-repeat;
+    background-size: 21px auto;
+    position: absolute;
+    left: .1rem;
+}
+
+.shop-content .shop-list input[type=checkbox]:checked+label,
+.car_fix input[type=checkbox]:checked+label {
+    background: url("../image/icon/check_on.png") no-repeat;
+    background-size: 21px auto;
+}
+
+.shop-content .shop-list .shop-content-pro {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    padding-top: .1rem;
+    background: #fff;
+}
+
+.shop-content .shop-list .shop-content-pro li {
+    display: -webkit-flex;
+    padding: .1rem 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.shop-content .shop-list .shop-content-pro li>span {
+    display: block;
+    width: 21px;
+    height: 100%;
+}
+
+.shop-content .shop-list .shop-content-pro li>span input,
+.shop-content .shop-list .shop-content-pro li>span label {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.shop-content .shop-list .shop-content-pro li dl {
+    padding-left: .4rem;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+}
+
+.shop-content .shop-list .shop-content-pro li dt {
+    border: 1px solid #bbb;
+}
+
+.shop-content .shop-list .shop-content-pro li dt img {
+    width: 80px;
+    height: auto;
+}
+
+.shop-content .shop-list .shop-content-pro li dd {
+    -webkit-flex: 1;
+    padding: 0 .1rem;
+}
+
+.shop-content .shop-list .shop-content-pro li dd p:nth-child(1) {
+    line-height: 25px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.shop-content .shop-list .shop-content-pro li dd p:nth-child(2) {
+    display: -webkit-flex;
+    height: 30px;
+}
+
+.shop-content .shop-list .shop-content-pro li dd p:nth-child(2) span {
+    color: red;
+    -webkit-flex: 1;
+}
+
+.shop-content .shop-list .shop-content-pro li dd p:nth-child(2) i {
+    display: -webkit-flex;
+}
+
+.shop-content .shop-list .shop-content-pro li dd p:nth-child(2) b {
+    color: #666;
+    font-weight: normal;
+    width: 30px;
+    height: 30px;
+    background: #f4f4f4;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.shop-content .shop-list .shop-content-pro li dd p:nth-child(2) .add {
+    border-radius: 0 5px 5px 0;
+}
+
+.shop-content .shop-list .shop-content-pro li dd input {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background: #eee;
+    margin: 0 2px;
+}
+
+.car_fix {
+    background: #fff;
+    border-top: 1px solid #dedede;
+    position: fixed;
+    z-index: 7;
+    bottom: 44px;
+    width: 100%;
+    height: .5rem;
+}
+
+.car_fix.in p {
+    width: 70%;
+    height: 100%;
+    font-size: 16px;
+    float: left;
+}
+
+.car_fix a.e_btn01 {
+    float: right;
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.car_fix a.e_btn01,
+.car_fix a.e_btn01:hover {
+    color: #fff;
+}
+
+a.e_btn01 {
+    background: #ca0915;
+    border: 1px solid #ca0915;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 2% 0;
+    font-size: 25px;
+}
+
+.car_fix input,
+.car_fix label {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.car_fix.in p em.in_01 {
+    font-style: normal;
+    float: left;
+    width: 45%;
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    padding-left: 40px;
+}
+
+.car_fix.in p em.in_02 {
+    font-style: normal;
+    float: left;
+    width: 50%;
+    display: block;
+    text-align: right;
+    padding-top: 2%;
+}
+
+.car_fix.in p .heji {
+    display: block;
+}
+
+.car_fix.in p .sumRedius {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    text-align: right;
+}
+
+#selet p {
+    width: 50%;
+}
+
+#selet p em {
+    width: 80%;
+}
+
+#selet .e_btn02 {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 49px;
+}
+
+#shopMark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #000;
+    opacity: .6;
+    z-index: 1111;
+}
+
+#shopAl {
+    border-radius: .10rem;
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    opacity: 1;
+    z-index: 1222;
+    overflow: hidden;
+}
+
+#shopAl p,
+#shopAl div {
+    height: 50%;
+    text-align: center;
+    background: #fff;
+    margin-top: 1px;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+#shopAl div {
+    color: blue;
+    border-top: 2px solid transparent;
+}
+
+#shopMes {
+    border-radius: .05rem;
+    padding: 0 .03rem;
+    width: 35%;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99;
+    background: #000;
+    opacity: .8;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.shop-header>span {
+    position: absolute;
+    height: 100%;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    padding: 0 .1rem;
+    color: #999;
+    z-index: 3;
+}
+
+.car_fix.in.ord {
+    height: 44px;
+    bottom: 0;
+}
+
+.car_fix.in.ord p {
+    text-align: right;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+.car_fix.in.ord p span {
+    display: inline-block;
+    color: red;
+    font-weight: 600;
+}
+
+.shop_settlement {
+    -webkit-flex: 1;
+    width: 100%;
+}
+
+.shop_settlement .settlement-main {
+    padding: 44px 0;
+    height: 100%;
+    background: #F2F2F2;
+}
+
+.shop_settlement .settlement-main .shop-address {
+    height: .8rem;
+    border: .04rem solid #ccc;
+    border-image: url(../image/icon/p02.jpg) 5 0 5 0 repeat;
+    text-align: center;
+    line-height: .8rem;
+    padding: 0 .06rem;
+}
+
+.shop_settlement .settlement-main .shop-address.show {
+    text-align: left;
+}
+
+.shop_settlement .settlement-main .shop-address p {
+    height: 45%;
+    line-height: .3rem;
+    ;
+}
+
+.shop_settlement .settlement-main .shop-address span {
+    color: #57B7CD;
+    font-size: 30px;
+}
+
+.shop_settlement .settlement-main .shop-address a {
+    position: absolute;
+    right: .2rem;
+    font-size: 26px;
+    color: #999;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.settlement-box {
+    margin-top: .1rem;
+    background: #fff;
+    position: relative;
+}
+
+.shop-settlement-list {
+    height: 1rem;
+    padding: .1rem .1rem;
+}
+
+.shop-settlement-list.setlists {
+    padding: 0;
+    padding-top: 44px;
+}
+
+.shop-settlement-list dl {
+    height: 100%;
+    display: -webkit-flex;
+}
+
+.shop-settlement-list dl.set-list {
+    height: auto;
+    display: -webkit-flex;
+    border-bottom: 1px solid #ccc;
+    padding: .1rem;
+}
+
+.shop-settlement-list dl.set-list dt {
+    border: none;
+}
+
+.shop-settlement-list dl dt {
+    border: 1px solid #ccc;
+    width: .8rem;
+    height: .8rem;
+    margin-right: .1rem;
+}
+
+.shop-settlement-list dl dt img {
+    width: .8rem;
+}
+
+.shop-settlement-list dl dd {
+    -webkit-flex: 1;
+    position: relative;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+.shop-settlement-list dl dd h4 {
+    -webkit-flex: 1;
+}
+
+.shop-settlement-list dl dd p {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    padding-right: .1rem;
+}
+
+.shop-settlement-list dl dd p span {
+    color: red;
+}
+
+.shop-settlement-list dl dd p b {
+    padding-right: .1rem;
+    font-weight: 400;
+}
+
+.settlement-box .set-right,
+.settlement-content-pro .set-right,
+.set-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    font-size: 26px;
+    color: #999;
+}
+
+.shop-list-two,
+.shop-list-more {
+    height: 100%;
+    width: 100%;
+    display: -webkit-flex;
+    position: relative;
+}
+
+.shop-list-two li,
+.shop-list-more li {
+    width: .81rem;
+    height: .81rem;
+    border: 1px solid #ccc;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    margin-right: .08rem;
+}
+
+.shop-list-two img,
+.shop-list-more img {
+    width: .8rem;
+}
+
+li.settlement-right {
+    width: 1rem;
+    height: 100%;
+    border: none;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+
+li.settlement-right>em {
+    text-align: left;
+}
+
+li.settlement-right span {
+    text-align: right;
+}
+
+.shop-settlement-pay {
+    height: .7rem;
+    padding: 0.05rem .1rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+
+.shop-settlement-pay li {
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shop-settlement-pay .pay-content {
+    padding-right: .25rem;
+    font-size: 14px;
+    width: 75%;
+    text-align: right;
+}
+
+.settlement-card {
+    padding: 0 .1rem;
+}
+
+.settlement-card li {
+    position: relative;
+    height: .44rem;
+    border-bottom: 1px solid #ccc;
+    line-height: .44rem;
+}
+
+.settlement-vip li span {
+    font-size: 16px;
+}
+
+.set-right em {
+    font-size: 16px;
+}
+
+.settlement-box .sett-pay-right {
+    right: .1rem;
+}
+
+.settlement-box.settlement-vip li .set-right {
+    right: .1rem;
+}
+
+.settlement-box.settlement-vip li span {
+    font-size: 16px;
+}
+
+.settlement-vip .red {
+    color: red;
+}
+
+.shop-settlement-content {
+    height: 100%;
+    padding-top: 44px;
+    position: relative;
+    background: #F2F2F2;
+}
+
+.settlement-content-pro {
+    height: 100%;
+}
+
+.settlement-content-pro li {
+    height: .45rem;
+    line-height: .45rem;
+    padding: 0 .1rem;
+    position: relative;
+}
+
+.settlement-content-pro li label {
+    display: inline-block;
+    width: 25%;
+    font-size: .16rem;
+}
+
+.settlement-content-pro li input {
+    display: inline-block;
+    width: 73%;
+    height: 100%;
+    border: none;
+    font-size: .16rem;
+    background: #F2F2F2;
+}
+
+.address-btn {
+    width: 90%;
+    margin: 0 5%;
+    background: #CA0915;
+    height: .45rem;
+    color: #fff;
+    text-align: center;
+    line-height: .45rem;
+    border-radius: .05rem;
+    position: fixed;
+    bottom: .2rem;
+}
+
+.settlement-content-pro .set-right {
+    right: .1rem;
+}
+
+ul.shop-settlement-content {
+    padding: 44px .1rem 0 .1rem;
+}
+
+ul.shop-settlement-content li {
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.citys-list {
+    position: relative;
+}
+
+.citys-list input {
+    opacity: 0;
+}
+
+.citys-list label {
+    position: absolute;
+    background: url(../image/icon/check_off.png) no-repeat left;
+    background-size: 18px auto;
+    padding-left: 20px;
+}
+
+.citys-list input:checked+label {
+    background: url(../image/icon/check_on.png) no-repeat left;
+    background-size: 18px auto;
+}
+
+.settend-content {
+    background: #F0F0F0;
+}
+
+.settend {
+    padding: 0 .1rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.settend li {
+    padding-left: .4rem;
+    position: relative;
+    height: .6rem;
+}
+
+.settend li span {
+    width: .2rem;
+    height: .2rem;
+    position: absolute;
+    right: .1rem;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.settend li span label,
+.settend li span input {
+    width: .2rem;
+    height: .2rem;
+    position: absolute;
+}
+
+.settend li span input {
+    z-index: 6;
+    opacity: 0;
+}
+
+.settend li span label {
+    background: url("../image/icon/ic_radio_normal.png")no-repeat center;
+    background-size: .2rem auto;
+}
+
+.settend li span input:checked+label {
+    background: url("../image/icon/ic_radio_press.png")no-repeat center;
+    background-size: .2rem auto;
+}
+
+.settend li:nth-child(1) {
+    background: url("../image/icon/zhifubao.png") no-repeat left center;
+    background-size: .32rem auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.settend li:nth-child(2) {
+    background: url("../image/icon/weixin.png") no-repeat left center;
+    background-size: .32rem auto;
+}
+
+.settend-list {
+    height: .5rem;
+    background: #fff;
+    margin-bottom: .15rem;
+    line-height: .5rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 .1rem;
+}
+
+.sett-part {
+    padding: 0 .1rem;
+    background: #fff;
+}
+
+.sett-part article {
+    border-bottom: 1px solid #ccc;
+    padding: .1rem;
+}
+
+.sett-part p {
+    padding: .15rem 0;
+}
+
+.sett-part p span {
+    display: inline-block;
+    width: 1.1rem;
+    height: .4rem;
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 5px;
+    line-height: .4rem;
+    text-align: center;
+}
+
+.sett-part p span.sett-on {
+    color: #CA0915;
+    border: 1px solid #CA0915;
+}
+
+.sett-part ul li {
+    line-height: .4rem;
+    display: -webkit-flex;
+}
+
+.sett-part ul li span {
+    position: relative;
+    display: inline-block;
+    width: .13rem;
+    height: .4rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+
+.sett-part ul li span label,
+.sett-part ul li span input {
+    position: absolute;
+    width: .13rem;
+    height: .13rem;
+}
+
+.sett-part ul li p {
+    display: inline-block;
+    padding: 0;
+    padding-left: .2rem;
+    display: -webkit-flex;
+}
+
+.sett-part ul li span input {
+    opacity: 0;
+}
+
+.sett-part ul li span label {
+    background: url(../image/icon/ic_wuliu_normal.png) no-repeat center;
+    background-size: .13rem;
+}
+
+.sett-part ul li span input:checked+label {
+    background: url(../image/icon/ic_wuliu_press.png) no-repeat center;
+    background-size: .13rem;
+}
+
+.settpei-btn {
+    margin: .35rem 5% 0;
+    width: 90%;
+    height: .45rem;
+    background: #CA0915;
+    color: #fff;
+    text-align: center;
+    line-height: .45rem;
+    border-radius: 5px;
+}
+
+.sett-jifen {
+    padding-top: 44px;
+}
+
+.sett-jifen p {
+    font-size: .14rem;
+}
+
+.sett-jifen p input {
+    width: 100%;
+    height: .4rem;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    font-size: .16rem;
+    padding-left: .1rem;
+}

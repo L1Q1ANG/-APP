@@ -1,0 +1,116 @@
+<ui-view>
+    <div class='a_box'>
+        <header class="header">
+            <a href="javascript:;" class="iconfont" ui-sref="contents">&#xe8a6;</a>
+            <a href="javascript:;" class="iconfont a2" ng-click="share()">&#xe64c;</a>
+            <a href="javascript:;" class="iconfont" ui-sref="search">&#xe672;</a>
+            <a href="javascript:;" class="iconfont" ui-sref="login">&#xe648;</a>
+        </header>
+        <main class="l_main">
+            <div class='l_tab'>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" ng-repeat="item in da.tabs">
+                            <a ui-sref="arts({id:item.img})"><img ng-src="{{item.img}}" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="l_shadow">
+                        <i>茶生活</i>
+                        <span>你根本不懂和尚的茶</span>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <nav class="l_main_nav">
+                <a ui-sref="first.art.artnewest" href="javascript:;"><img src="./src/images/d_img1.png" alt="" />最新</a>
+                <a ui-sref="first.art.arthot" href="javascript:;"><img src="./src/images/d_img2.png" alt="" />热门</a>
+                <a ui-sref="first.art.artspecial" href="javascript:;"><img src="./src/images/d_img3.png" alt="" />专题</a>
+            </nav>
+            <ul class="a_list">
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img class="winterImg" src="./src/images/673584569d625c98.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <dl>
+                            <dt><img src="./src/images/989589c3825d3a80.png" alt="" /></dt>
+                            <dd>
+                                <div><i></i>浙大茶学教授、博导告诉你：用茶服药到底有什么危害？</div>
+                                <p><i class="iconfont">&#xe63f;<span>614</span></i><i class="iconfont">&#xe63a;<span>5.06万</span></i></p>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+            </ul>
+        </main>
+    </div>
+</ui-view>

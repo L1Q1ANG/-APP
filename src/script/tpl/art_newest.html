@@ -1,0 +1,23 @@
+<div class="art-newest">
+	<header class="header">
+        <a href="javascript:;" class="iconfont" ng-click="back()">&#xe61c;</a>
+        <a href="javascript:;" class="iconfont a2">&#xe64c;</a>
+        <a href="javascript:;" class="iconfont">&#xe672;</a>
+        <a href="javascript:;" class="iconfont">&#xe648;</a>
+    </header>
+	<section class="artN-mian">
+		<ul>
+			<li ng-repeat="item in da.newhot">
+				<a ui-sref="arts({id:item.id})">
+                    <dl>
+                        <dt><img ng-src="{{item.img}}" alt="" /></dt>
+                        <dd>
+                            <div><i></i>{{item.config}}</div>
+                            <p><i class="iconfont">&#xe63f;<span>{{item.num}}</span></i><i class="iconfont">&#xe63a;<span>{{item.look}}</span></i></p>
+                        </dd>
+                    </dl>
+                </a>
+			</li>
+		</ul>
+	</section>
+</div>
